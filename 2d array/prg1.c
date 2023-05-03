@@ -6,7 +6,7 @@ int main(){
 	printf("Enter a number of array:");
 	scanf("%d",&n);
 	
-	int a[n][n],i,j,sum=0;
+	int a[n][n],i,j;
 	
 	for(i=0; i<n; i++){
 		for(j=0; j<n; j++){
