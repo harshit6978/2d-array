@@ -14,22 +14,13 @@ int main(){
 			printf("enter a number:");
 			scanf("%d",&a[i][j]);
 		}
-		
 	}
 	
 	for(i=0; i<n; i++){
 		for(j=0; j<n; j++){
-			
 			printf("%d ",a[i][j]);
-				
-				sum=sum+  i;
 		}
 		printf("\n");
-	
 	}
-		printf(" number of row is %d",sum);
-
-	
-	
 	return 0;
 }
